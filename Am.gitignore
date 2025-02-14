@@ -1,0 +1,86 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environments
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and temp files
+*.log
+*.out
+*.tmp
+*.bak
+
+# Ignore datasets (CSV, Excel, JSON, etc.)
+*.csv
+*.tsv
+*.json
+*.xls
+*.xlsx
+*.sav
+*.dta
+*.parquet
+*.feather
+*.orc
+
+# Ignore large data files
+data/raw/
+data/processed/
+data/interim/
+data/output/
+datasets/
+*.db
+*.sqlite
+*.h5
+*.hdf5
+
+# Ignore machine learning model artifacts
+models/
+checkpoints/
+*.pkl
+*.joblib
+*.ckpt
+*.hdf5
+*.onnx
+*.tflite
+*.pb
+*.pt
+*.pth
+
+# Ignore submission files (if applicable)
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Ignore temporary Jupyter files
+*.nbconvert.ipynb
+
+# Ignore configuration files
+config.yaml
+config.json
+*.ini
+
+# Ignore Python packaging files
+dist/
+build/
+*.egg-info/
+
+# Ignore Power BI files
+*.pbix
+*.pbit
+
+# Ignore VS Code settings (if using VS Code)
+.vscode/
+
+# Ignore Streamlit deployment files (if applicable)
+.streamlit/secrets.toml
